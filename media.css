@@ -1,0 +1,162 @@
+ @media (max-width:1200px) { 
+  .nav__content{
+    justify-content: space-around;
+  }
+}
+
+@media (max-width:1180px) {
+  .container{
+    width: 580px;
+  }
+  .main__box{
+    flex-direction: column;
+  }
+  .left{
+    margin-bottom: 60px;
+  }
+  .box{
+    width: 275px;
+  }
+  .right{
+    margin-left: -1px;
+  }
+  .nav__content{
+    column-gap: 60px;
+  }
+  .footer__box{
+    column-gap: 80px;
+  }
+}
+  
+@media (max-width:1000px) {
+  .nav__content{
+    column-gap: 70px;
+  }
+}
+
+@media (max-width:900px) {
+  .container{
+    width: 580px;
+  }
+  .nav__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;  
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .logo{
+    padding-top: 25px;
+    display: block;
+    justify-content: center;
+    
+  }
+}
+
+@media (max-width:690px) {
+  .ul__list{
+    flex-direction: column;
+    row-gap: 10px; 
+  }
+  .logo{
+    padding-top: 30px;
+  }
+  .container{
+    width: 550px;
+  }
+  .right{
+    justify-content: center;
+  }
+  .left{
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .image{
+    width: 397px;
+  }
+  .left{
+    margin-top: -30px;
+  }
+  .footer__box{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+
+@media (max-width:650px) {
+  .container{
+    width: 550px;
+  }
+  main{
+    flex-wrap: wrap;
+  }
+  .left__p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:576px) {
+  .container{
+    width: 450px;
+  }
+  .ul__list{
+    font-size: 15px;
+  }
+  .box__text{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:480px) {
+  .left{
+    width: 330px;
+  }
+  .image{
+    width: 100%;
+  }
+  footer{
+    display: inline-block;
+  }
+  main{
+    display: inline-block;
+  }
+  nav{ 
+    display: inline-block;
+  }
+}
+
+@media (max-width:440px) {
+  .container{
+    display: inline-block;
+  }
+  .ul__list{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 40px;
+  }
+}
+
+@media (max-width:420px) {
+  p{
+    font-size: 15px;
+  }
+  .header__text{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:400px) {
+  .left{
+    width: 300px;
+  }  
+}
+
+@media (max-width:320px) {
+  .header__text{
+    font-size: 14px;
+  }
+} 
